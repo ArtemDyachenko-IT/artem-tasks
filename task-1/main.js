@@ -1,3 +1,5 @@
-var entr = prompt("name: Artem age:30");
-alert(entr);
-alert('name: andrey age: 30');
+var name = prompt('enter name:');
+var age = prompt('enter age:');
+
+alert('Name: ' + name + ' Age: ' + age);
+

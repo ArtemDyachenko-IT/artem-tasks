@@ -1,2 +1,6 @@
-var num = 52;
-alert(typeof num);
+var num = '52';
+
+
+var str = +num;
+
+alert(typeof str);

@@ -1,8 +1,15 @@
-var num1 = prompt('enter number 2');
-var num2 = prompt('enter numder 3');
-var num3 = prompt('enter number 4');
-var oper = prompt('enter + ');
-var res = 9;
-alert('your value ' + res);
+var num1 = +prompt('enter your number ');
+var num2 = +prompt('enter your numder ');
+var num3 = +prompt('enter your number ');
+var oper = prompt('Enter operation */+-');
 
+var res = 0;
+ 
+if(oper === '+') {
+    res = num1 + num2 + num3;
+}
+ 
+
+
+alert('your value is: ' + res);
 

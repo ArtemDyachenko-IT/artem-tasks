@@ -1,5 +1,10 @@
-var userName = 'Vasya';
+var userName = "Vasya";
 
-for(var char of 'Vasya'){
-    console.log(char);
+var dotName = "";
+
+for(const i of userName) {
+    dotName += i + "."
 }
+
+console.log(dotName);
+

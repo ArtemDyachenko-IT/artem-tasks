@@ -1,9 +1,15 @@
-var num1 = prompt('Enter your number please');
+var firstNumber = prompt("enter you number: ", "");
+var power = prompt("enter your power: ", "");
 
-var res = num1 ** 2;
+function calc(firstNumber, power) {
+  var result = 1;
+  for (var i = 0; i < power; i++) {
+    result *= firstNumber;
+  }
+  return result;
+}
 
-alert(res);
-
+alert(calc(firstNumber, power));
 
 
 

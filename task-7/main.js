@@ -7,6 +7,7 @@ function calc(firstNumber, power) {
     result *= firstNumber;
   }
   return result;
+  
 }
 
 alert(calc(firstNumber, power));

@@ -1,0 +1,20 @@
+.home_task-8{
+    max-width: 1100px;
+    margin: 8px auto;
+    color: rgb(20 9 9);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 25px;
+    
+}
+.container {
+    margin: auto;
+    border: 2px solid #000;
+    min-height: 630px;
+    max-width: 1100px;
+    margin: auto;
+    font-size: 25px;
+    
+  
+}

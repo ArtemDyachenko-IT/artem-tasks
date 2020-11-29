@@ -1,3 +1,11 @@
-var users = [{name:'vasa', age:25, city:'New York'}];
-console.log(users);
+function show() {
+  alert(this.name);
 
+}
+var user = {
+  name: "Alex",
+  Age: 18,
+ 
+}
+user.city = "New York"
+console.log(user);
